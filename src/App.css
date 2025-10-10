@@ -46,7 +46,7 @@ input{
     font-size: 24px;
 }
 
-.btn-login{
+.accion-login{
     background-color: #FFFFFF;
     height: 280px;
     border-radius: 60px 60px 0px 0px;
@@ -56,10 +56,28 @@ input{
     align-items: center;
 }
 
-.btn-login> span {
+.accion-login> span {
     font-family: "Itim", cursive;
     color:#636363;
     font-size: 24px;
     margin: 10px 0px;
 
+}
+
+.btn {
+    font-family: "Itim", cursive;
+    font-size: 24px;
+    border-radius: 16px;
+    width: 80vw; /* vw -> view width */
+    height: 55px;
+    border: none;
+}
+
+.btn-login {
+    background-color: #4C8479;
+    color: #FFFFFF;
+}
+
+.btn-create-account {
+    background-color: #9CB9B3;
 }
