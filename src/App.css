@@ -79,5 +79,10 @@ input{
 }
 
 .btn-create-account {
+    display: flex;
+    align-items: center;
     background-color: #9CB9B3;
+    color: #000;
+    text-decoration: none;
+    justify-content: center;
 }

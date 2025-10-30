@@ -1,4 +1,5 @@
 import { LogoChaskys } from '../components/LogoChaskys'
+import { Link } from 'react-router';
 
 
 export const Login = () => {
@@ -18,7 +19,7 @@ export const Login = () => {
         <span>¿Olvidaste tu contraseña?</span>
         <button className="btn btn-login">Iniciar Sesión</button>
         <span>o</span>
-        <button className="btn btn-create-account">Crea una cuenta</button>
+        <Link to="/register" className="btn btn-create-account">Crea una cuenta</Link>
       </section>
     </>
   );
