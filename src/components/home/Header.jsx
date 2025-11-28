@@ -1,8 +1,17 @@
-export const HeaderHome = ({ onViewProfile }) => {
+import { useNavigate } from "react-router-dom";
+
+export const HeaderHome = () => {
+
+  const navigate = useNavigate();
+
+    const handlerRedictProfile = () =>{
+    navigate("/profile")
+  }
+
   return (
     <section className="header-home">
       <div className="hader-user">
-        <span class="header-user-name" onClick={onViewProfile}>
+        <span className="header-user-name" onClick={handlerRedictProfile}>
           Jhefferson
         </span>
         <span className="header-user-category color-orange">Chasky Balck</span>

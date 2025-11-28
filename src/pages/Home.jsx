@@ -27,13 +27,10 @@ export const Home = () => {
     setIsVisibleHistorial(false);
   };
 
-  const handlerRedictProfile = () =>{
-    navigate("/profile")
-  }
 
   return (
     <div>
-      <HeaderHome onViewProfile={handlerRedictProfile} />
+      <HeaderHome/>
       <ProfitHome />
 
       {isVisibleHistorial ? (

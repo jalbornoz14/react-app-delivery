@@ -97,7 +97,8 @@
   background-color: #9ddfd2;
   border-radius: 16px;
   padding: 7px 14px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  font-family: "Itim", cursive;
 }
 
 .card-order-name-summary {

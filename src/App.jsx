@@ -6,6 +6,8 @@ import { Login } from "./pages/Login";
 import { Register } from "./pages/Register"
 import { Home } from "./pages/Home"
 import { Profile } from "./pages/Profile"
+import { MonitoringOrder } from "./pages/MonitoringOrder"
+import { ConfirmOrder } from "./pages/ConfirmOrder"
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="register" element={<Register />} />
         <Route path="home" element={<Home />} />
         <Route path="profile" element={<Profile />} />
+        <Route path="monitoring-order/:id" element={<MonitoringOrder />} />
+        <Route path="confirm-order" element={<ConfirmOrder />} />
       </Routes>
     </>
   );
